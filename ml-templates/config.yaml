@@ -1,7 +1,7 @@
 Args: --data_dir=/workspace/data --log_dir=$RUNDIR
 Cmd: hello.py
 EnvVars: []
-ExecutionDir: /src/mnist-deep
+ExecutionDir: /src/tensorflow-py2
 Images:
   BaseImage: tensorflow/tensorflow
   GpuImage: tensorflow/tensorflow:latest-gpu
